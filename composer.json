@@ -1,6 +1,7 @@
 {
     "name": "dharman/info_banner",
     "type": "roundcube-plugin",
+    "version": "0.9.99",
     "description": "Information banner specific for Spam folder",
     "keywords": ["information","notification","mail"],
     "homepage": "https://github.com/dharmann/info_banner",
