@@ -1,7 +1,18 @@
 {
-    "name": "10100/InfoBanner",
+    "name": "dharman/info_banner",
     "type": "roundcube-plugin",
+    "description": "Information banner specific for Spam folder",
+    "keywords": ["information","notification","mail"],
+    "homepage": "https://github.com/dharmann/info_banner",
     "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "dharman",
+            "email": "dharman@10100.to",
+            "homepage": "http://10100.to",
+            "role": "Developer"
+        }
+    ],
     "repositories": [
         {
             "type": "composer",
@@ -9,6 +20,12 @@
         }
     ],
     "require": {
+        "php": ">=5.3.0",
         "roundcube/plugin-installer": ">=0.1.3"
+    },
+    "extra": {
+        "roundcube": {
+            "min-version": "0.8.0"
+        }
     }
 }
